@@ -5,7 +5,7 @@ DB_HOST,
 DB_PASSWORD,
 DB_PORT, 
 DB_USER,
-} from './config';
+} from './config.js';
 
 export const pool = createPool({
     host: DB_HOST,
